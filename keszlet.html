@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CarPoint Nagykőrös – Teljes járműkínálat. 46 ellenőrzött személyautó, SUV, haszongépjármű és motor. Szűrj ár, üzemanyag, típus szerint." />
+  <title>Készlet – CarPoint Nagykőrös</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="keszlet.css" />
+</head>
+<body class="page-keszlet">
+
+  <!-- FLOATING PHONE -->
+  <a href="tel:+36306684406" class="phone-float" aria-label="Hívás">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+
+  <!-- NAVBAR -->
+  <header class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/top.png" alt="CarPoint Nagykőrös logó" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#kinalat">Kínálat</a>
+        <a href="index.html#szolgaltatasok">Szolgáltatások</a>
+        <a href="index.html#rolunk">Rólunk</a>
+        <a href="index.html#kapcsolat">Kapcsolat</a>
+        <a href="tel:+36306684406" class="nav-cta">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          06/30/668-4406
+        </a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <div class="kp-hero">
+    <div class="kp-hero-bg">
+      <img src="img/second.jpg" alt="" />
+      <div class="kp-hero-overlay"></div>
+    </div>
+    <div class="kp-hero-content">
+      <div class="kp-breadcrumb">
+        <a href="index.html">Főoldal</a>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        <span>Készlet</span>
+      </div>
+      <h1>Teljes készlet</h1>
+      <p>46 ellenőrzött jármű — szűrj és találd meg a tökéletes autót!</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="kp-main">
+
+    <!-- ── Category tabs ── -->
+    <div class="kp-cats">
+      <div class="container">
+        <div class="cats-inner">
+          <button class="cat-btn active" data-cat="">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="12.01"/></svg>
+            Összes
+            <span class="cat-num" id="catNumAll">46</span>
+          </button>
+          <button class="cat-btn" data-cat="szem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v3"/><rect x="9" y="11" width="14" height="10" rx="2"/><circle cx="12" cy="20" r="1"/><circle cx="20" cy="20" r="1"/></svg>
+            Személyautó
+            <span class="cat-num" id="catNumSzem"></span>
+          </button>
+          <button class="cat-btn" data-cat="suv">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1 17l2-8h18l2 8"/><path d="M1 17h22"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M3 9l2-4h14l2 4"/></svg>
+            SUV / Terepjáró
+            <span class="cat-num" id="catNumSuv"></span>
+          </button>
+          <button class="cat-btn" data-cat="haszno">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            Haszongépjármű
+            <span class="cat-num" id="catNumHaszno"></span>
+          </button>
+          <button class="cat-btn" data-cat="motor">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="17" r="3"/><circle cx="6" cy="17" r="3"/><path d="M6 14V8l4-4h8l2 6"/><path d="M6 14h12"/></svg>
+            Motor
+            <span class="cat-num" id="catNumMotor"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container kp-layout">
+
+      <!-- ── Sidebar filters ── -->
+      <aside class="kp-sidebar" id="sidebar">
+        <div class="sb-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+          Szűrők
+          <button class="sb-reset" id="sbReset">Törlés</button>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Márka</label>
+          <div class="sb-search">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="kSearch" placeholder="Márka vagy modell…" autocomplete="off"/>
+          </div>
+          <div class="brand-grid" id="brandGrid"></div>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Üzemanyag</label>
+          <div class="sb-pill-group" id="fuelPills">
+            <button class="sb-pill active" data-val="">Mindegy</button>
+            <button class="sb-pill" data-val="Benzin">Benzin</button>
+            <button class="sb-pill" data-val="Dízel">Dízel</button>
+            <button class="sb-pill" data-val="Hibrid">Hibrid</button>
+          </div>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Váltó</label>
+          <div class="sb-pill-group" id="transPills">
+            <button class="sb-pill active" data-val="">Mindegy</button>
+            <button class="sb-pill" data-val="Manuális">Manuális</button>
+            <button class="sb-pill" data-val="Automata">Automata</button>
+          </div>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Karosszéria</label>
+          <div class="sb-check-group" id="tipusPills">
+            <label class="sb-check"><input type="checkbox" value="Személyautó"/> Személyautó</label>
+            <label class="sb-check"><input type="checkbox" value="SUV"/> SUV / Terepjáró</label>
+            <label class="sb-check"><input type="checkbox" value="Kombi"/> Kombi</label>
+            <label class="sb-check"><input type="checkbox" value="MPV"/> MPV / Egyterű</label>
+            <label class="sb-check"><input type="checkbox" value="Cabrio"/> Cabrio</label>
+            <label class="sb-check"><input type="checkbox" value="Haszongépjármű"/> Haszongépjármű</label>
+            <label class="sb-check"><input type="checkbox" value="Motor"/> Motor</label>
+          </div>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Vételár (Ft)</label>
+          <div class="sb-range-row">
+            <input type="number" id="kArMin" placeholder="Min" step="100000" min="0" />
+            <span>–</span>
+            <input type="number" id="kArMax" placeholder="Max" step="100000" min="0" />
+          </div>
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Futásteljesítmény (max km)</label>
+          <input type="number" id="kKmMax" class="sb-input-full" placeholder="pl. 150000" step="10000" min="0" />
+        </div>
+
+        <div class="sb-section">
+          <label class="sb-label">Évjárat</label>
+          <div class="sb-range-row">
+            <input type="number" id="kEvMin" placeholder="Tól" min="1990" max="2025" />
+            <span>–</span>
+            <input type="number" id="kEvMax" placeholder="Ig"  min="1990" max="2025" />
+          </div>
+        </div>
+
+        <button class="sb-apply" id="sbApply">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Szűrés alkalmazása
+        </button>
+
+        <!-- hasznaltauto.hu badge -->
+        <a href="https://www.hasznaltauto.hu/partner/carpoint_nagykoros-17937" target="_blank" rel="noopener" class="sb-hahu">
+          <img src="img/hahu3.png" alt="hasznaltauto.hu" />
+          <span>Hirdetéseink a hasznaltauto.hu-n</span>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </aside>
+
+      <!-- ── Results ── -->
+      <div class="kp-results">
+
+        <!-- Toolbar -->
+        <div class="kp-toolbar">
+          <div class="kp-toolbar-left">
+            <span class="kp-count" id="kCount">46 jármű</span>
+            <div class="kp-active-filters" id="activeFilters"></div>
+          </div>
+          <div class="kp-toolbar-right">
+            <label class="kp-sort-label">Rendezés:</label>
+            <select id="kSort" class="kp-sort-sel">
+              <option value="ar_asc">Ár: olcsóbb előre</option>
+              <option value="ar_desc">Ár: drágább előre</option>
+              <option value="ev_desc">Évjárat: újabb előre</option>
+              <option value="ev_asc">Évjárat: régebbi előre</option>
+              <option value="km_asc">Futott: kevesebb előre</option>
+              <option value="le_desc">Teljesítmény: nagyobb előre</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Car grid -->
+        <div class="kp-grid" id="kGrid"></div>
+
+        <!-- Empty state -->
+        <div class="kp-empty" id="kEmpty" hidden>
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <h3>Nincs találat</h3>
+          <p>Próbáljon meg más szűrési feltételeket, vagy törölje a szűrőket.</p>
+          <button class="btn-teal" id="kEmptyReset">Szűrők törlése</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="ft-brand">
+          <img src="img/top.png" alt="CarPoint Nagykőrös" class="ft-logo" />
+          <p>Nagykőrös első számú autókereskedése.<br/>Megbízható autók, becsületes üzletelés.</p>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" class="ft-fb" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            Kövessen Facebookon
+          </a>
+        </div>
+        <div class="ft-col">
+          <h5>Gyors linkek</h5>
+          <a href="index.html#kinalat">Kínálatunk</a>
+          <a href="keszlet.html">Teljes készlet</a>
+          <a href="index.html#szolgaltatasok">Szolgáltatások</a>
+          <a href="index.html#rolunk">Rólunk</a>
+          <a href="index.html#kapcsolat">Kapcsolat</a>
+        </div>
+        <div class="ft-col">
+          <h5>Elérhetőség</h5>
+          <a href="tel:+36306684406">06/30/668-4406</a>
+          <p>2750 Nagykőrös<br/>Bokros dűlő 14087<br/>(Ceglédi út)</p>
+        </div>
+        <div class="ft-col">
+          <h5>Partner</h5>
+          <a href="https://www.hasznaltauto.hu" target="_blank" rel="noopener">
+            <img src="img/hahu3.png" alt="hasznaltauto.hu partner" class="ft-hahu" />
+          </a>
+          <p>Kínálatunkat megtalálja a hasznaltauto.hu-n is.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>&copy; 2025 CarPoint Kft. — Minden jog fenntartva.</span>
+        <span>www.carpointnagykoros.hu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cars.js"></script>
+  <script src="keszlet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

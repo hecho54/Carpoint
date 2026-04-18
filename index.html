@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CarPoint Nagykőrös – Nagykőrös első számú autókereskedése. Minőségi használt autók, finanszírozás, műszaki garancia." />
+  <title>CarPoint Nagykőrös</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- FLOATING PHONE -->
+  <a href="tel:+36306684406" class="phone-float" aria-label="Hívás">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="img/top.png" alt="CarPoint Nagykőrös logó" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#kinalat">Kínálat</a>
+        <a href="#szolgaltatasok">Szolgáltatások</a>
+        <a href="#rolunk">Rólunk</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+        <a href="tel:+36306684406" class="nav-cta">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          06/30/668-4406
+        </a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-img">
+      <img src="img/first.jpg" alt="CarPoint autókereskedés" />
+    </div>
+    <div class="hero-gradient"></div>
+
+    <!-- Diagonal deco line -->
+    <div class="hero-deco-line"></div>
+
+    <div class="hero-body">
+      <div class="hero-left">
+        <p class="hero-eyebrow">Nagykőrös · Használt autókereskedés</p>
+        <h1 class="hero-h1">
+          Találd meg<br/>a következő<br/><em>autódat.</em>
+        </h1>
+        <p class="hero-p">Személyautók, SUV-ok és haszongépjárművek — alapos ellenőrzéssel, garanciával, teljes ügyintézéssel.</p>
+        <div class="hero-btns">
+          <a href="#kinalat" class="btn-teal">Kínálatunk</a>
+          <a href="#kapcsolat" class="btn-ghost">Kapcsolat</a>
+        </div>
+      </div>
+
+      <div class="hero-stats-col">
+        <div class="stat-item">
+          <span class="sg-num" data-target="10">0</span><span class="sg-plus">+</span>
+          <span class="sg-label">Év tapasztalat</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="sg-num" data-target="500">0</span><span class="sg-plus">+</span>
+          <span class="sg-label">Eladott autó</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="sg-num" data-target="46">0</span>
+          <span class="sg-label">Autó raktáron</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#trust" class="hero-scroll">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ═══ TRUST SÁV ═══ -->
+  <section class="trust-bar" id="trust">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <div class="ti-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <strong>Műszaki garancia</strong>
+          <span>Több éves garancia minden autóra</span>
+        </div>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <div class="ti-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </div>
+        <div>
+          <strong>Szigorú ellenőrzés</strong>
+          <span>Többpontos műszaki vizsgálat</span>
+        </div>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <div class="ti-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <div>
+          <strong>Teljes ügyintézés</strong>
+          <span>Átírástól a biztosításig</span>
+        </div>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <div class="ti-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div>
+          <strong>Finanszírozás</strong>
+          <span>Rugalmas hitellehetőségek</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ KÍNÁLAT ═══ -->
+  <section class="section" id="kinalat">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Kínálatunkból</span>
+        <h2 class="sec-h2">Kiemelt járművek</h2>
+        <p class="sec-sub">Válogatott autók a 46 darabos kínálatunkból — minden jármű műszakilag ellenőrzött, garanciával.</p>
+      </div>
+
+      <!-- ── Featured 8 grid ── -->
+      <div class="inv-grid" id="featuredGrid"></div>
+
+      <!-- ── CTA: full inventory ── -->
+      <div class="featured-cta">
+        <div class="fcta-left">
+          <strong>Összesen 46 jármű</strong>
+          <span>Személyautók, SUV-ok, haszongépjárművek és egyéb járművek — szűrőkkel, keresővel</span>
+        </div>
+        <a href="keszlet.html" class="btn-teal btn-lg">
+          Teljes készlet megtekintése
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SUNSET BANNER ═══ -->
+  <div class="sunset-banner">
+    <img src="img/third.jpg" alt="" aria-hidden="true" />
+    <div class="sb-overlay"></div>
+    <div class="sb-content">
+      <h2>"Hozza el az álomautót — mi megtaláljuk Önnek."</h2>
+      <a href="tel:+36306684406" class="btn-teal btn-lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Hívjon most: 06/30/668-4406
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══ SZOLGÁLTATÁSOK ═══ -->
+  <section class="section section-dark" id="szolgaltatasok">
+    <div class="container">
+      <div class="sec-head light">
+        <span class="sec-tag">Amit kínálunk</span>
+        <h2 class="sec-h2">Szolgáltatásaink</h2>
+        <p class="sec-sub">Mindent egy kézből — a keresléstől a kulcsátadásig gondoskodunk Önről.</p>
+      </div>
+
+      <div class="svc-grid">
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">01</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </div>
+          <h3>Személyes tanácsadás</h3>
+          <p>4 tapasztalt szakértő segít megtalálni az igényeinek és büdzséjének legjobban megfelelő járművet.</p>
+        </div>
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">02</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3>Műszaki ellenőrzés</h3>
+          <p>Minden autó többpontos átfogó műszaki vizsgálaton esik át — az Ön nyugalmáért és biztonságáért.</p>
+        </div>
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">03</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Próbaút</h3>
+          <p>Mielőtt dönt — tesztelje valódi körülmények között a kiszemelt autót. Minden járműre lehetséges.</p>
+        </div>
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">04</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Finanszírozás</h3>
+          <p>Segítünk a legkedvezőbb hitelajánlat megtalálásában — gyorsan, egyszerűen, nálunk intézünk mindent.</p>
+        </div>
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">05</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          </div>
+          <h3>Teljes adminisztráció</h3>
+          <p>Átírás, forgalmi, biztosítás — minden papírmunkát elvégzünk, hogy Önnek ne kelljen sehova futnia.</p>
+        </div>
+        <div class="svc-card reveal-dark">
+          <div class="svc-num">06</div>
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Műszaki garancia</h3>
+          <p>Vásárlás után sem hagyunk magára — többéves garancia biztosítja a hosszú távú megbízhatóságot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ RÓLUNK ═══ -->
+  <section class="section" id="rolunk">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-side reveal">
+          <div class="about-main-img">
+            <img src="img/second.jpg" alt="CarPoint telep nappal" />
+          </div>
+          <div class="about-small-img">
+            <img src="img/about.jpg" alt="CarPoint kínálat" />
+          </div>
+          <div class="about-badge">
+            <div class="ab-year">2023</div>
+            <div class="ab-text">Alapítva</div>
+          </div>
+        </div>
+
+        <div class="about-text-side reveal">
+          <span class="sec-tag">A mi történetünk</span>
+          <h2 class="sec-h2 left">Miért bízzon<br/>bennünk?</h2>
+          <p class="about-lead">Több mint 10 éves szakmai tapasztalattal és több száz eladott autóval a hátunk mögött tudunk igazán segíteni.</p>
+          <p class="about-body">Nem sürgetjük és nem nyomjuk le az autókat a torkon. Azt keressük meg, ami <strong>valóban illik Önhöz</strong> — igényei, életstílusa és büdzséje alapján. Mert az elégedett vásárló a legjobb reklám.</p>
+
+          <div class="about-numbers">
+            <div class="an-item">
+              <span class="an-num">10+</span>
+              <span class="an-label">Év tapasztalat</span>
+            </div>
+            <div class="an-item">
+              <span class="an-num">500+</span>
+              <span class="an-label">Eladott autó</span>
+            </div>
+            <div class="an-item">
+              <span class="an-num">4</span>
+              <span class="an-label">Szakértő</span>
+            </div>
+          </div>
+
+          <div class="about-values">
+            <div class="av-item">
+              <div class="av-dot"></div>
+              <div>
+                <strong>Átláthatóság</strong>
+                <p>Nincsenek rejtett költségek, nincs nyomulás — tiszta, becsületes üzletelés.</p>
+              </div>
+            </div>
+            <div class="av-item">
+              <div class="av-dot"></div>
+              <div>
+                <strong>Szakértelem</strong>
+                <p>Évtizedes szaktudás minden egyedi tranzakcióban.</p>
+              </div>
+            </div>
+            <div class="av-item">
+              <div class="av-dot"></div>
+              <div>
+                <strong>Személyes figyelem</strong>
+                <p>Minden ügyfél kap elegendő időt és figyelmet — nálunk nem szám, hanem ember.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ KAPCSOLAT ═══ -->
+  <section class="section section-gray" id="kapcsolat">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Elérjük egymást</span>
+        <h2 class="sec-h2">Lépjen kapcsolatba</h2>
+        <p class="sec-sub">Kérdése van? Látogasson el hozzánk személyesen, hívjon, vagy küldjön üzenetet!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="contact-hero-img">
+            <img src="img/first.jpg" alt="CarPoint este" />
+            <div class="chi-overlay">
+              <div class="chi-logo">
+                <img src="img/top.png" alt="CarPoint logó" />
+              </div>
+            </div>
+          </div>
+
+          <div class="cinfo-cards">
+            <a href="tel:+36306684406" class="cinfo-card cinfo-phone">
+              <div class="cic-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="cic-label">Telefon</span>
+                <strong>06/30/668-4406</strong>
+              </div>
+              <svg class="cic-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <div class="cinfo-card">
+              <div class="cic-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="cic-label">Cím</span>
+                <strong>2750 Nagykőrös, Bokros dűlő 14087 (Ceglédi út)</strong>
+              </div>
+            </div>
+
+            <div class="cinfo-card">
+              <div class="cic-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <span class="cic-label">Nyitvatartás</span>
+                <strong>H–P: 8:00–17:00 · Szo: egyeztetés</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <form class="cform" onsubmit="handleForm(event)">
+            <h3>Küldjön üzenetet</h3>
+            <p>Hamarosan visszajelzünk — általában 24 órán belül!</p>
+
+            <div class="cform-row">
+              <div class="cform-group">
+                <label for="name">Neve <span>*</span></label>
+                <input type="text" id="name" name="name" placeholder="Kovács János" required />
+              </div>
+              <div class="cform-group">
+                <label for="phone">Telefonszám</label>
+                <input type="tel" id="phone" name="phone" placeholder="06/30/…" />
+              </div>
+            </div>
+            <div class="cform-group">
+              <label for="email">Email cím <span>*</span></label>
+              <input type="email" id="email" name="email" placeholder="email@example.com" required />
+            </div>
+            <div class="cform-group">
+              <label for="subject">Tárgy</label>
+              <select id="subject" name="subject">
+                <option value="">Válasszon…</option>
+                <option>Autó iránt érdeklődöm</option>
+                <option>Finanszírozás kérdés</option>
+                <option>Próbaút foglalás</option>
+                <option>Egyéb</option>
+              </select>
+            </div>
+            <div class="cform-group">
+              <label for="message">Üzenet</label>
+              <textarea id="message" name="message" rows="4" placeholder="Milyen autó iránt érdeklődik? Mik az elvárásai?"></textarea>
+            </div>
+            <button type="submit" class="btn-teal btn-full">
+              Üzenet küldése
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <p class="cform-success" id="formNote" hidden>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000!2d19.779774!3d47.0631186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47417d65b6fe9647%3A0x4ef1325a21a17dd7!2sCarPoint%20Nagyk%C5%91r%C3%B6s!5e0!3m2!1shu!2shu!4v1700000000000"
+          width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="CarPoint Nagykőrös helyszín">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="ft-brand">
+          <img src="img/top.png" alt="CarPoint Nagykőrös" class="ft-logo" />
+          <p>Nagykőrös első számú autókereskedése.<br/>Megbízható autók, becsületes üzletelés.</p>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" class="ft-fb" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            Kövessen Facebookon
+          </a>
+        </div>
+        <div class="ft-col">
+          <h5>Gyors linkek</h5>
+          <a href="#kinalat">Kínálatunk</a>
+          <a href="#szolgaltatasok">Szolgáltatások</a>
+          <a href="#rolunk">Rólunk</a>
+          <a href="#kapcsolat">Kapcsolat</a>
+        </div>
+        <div class="ft-col">
+          <h5>Elérhetőség</h5>
+          <a href="tel:+36306684406">06/30/668-4406</a>
+          <p>2750 Nagykőrös<br/>Bokros dűlő 14087<br/>(Ceglédi út)</p>
+        </div>
+        <div class="ft-col">
+          <h5>Partner</h5>
+          <a href="https://www.hasznaltauto.hu" target="_blank" rel="noopener">
+            <img src="img/hahu3.png" alt="hasznaltauto.hu partner" class="ft-hahu" />
+          </a>
+          <p>Kínálatunkat megtalálja a hasznaltauto.hu-n is.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>&copy; 2025 CarPoint Kft. — Minden jog fenntartva.</span>
+        <span>www.carpointnagykoros.hu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cars.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
